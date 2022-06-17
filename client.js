@@ -21,15 +21,15 @@ const connect = function () {
     conn.write("Name: DMA");
   });
 
-  conn.on("connect", () => {
-    setInterval(() => {
-      conn.write("Move: up")
-    }, 1000);
-    setInterval(() => {
-      conn.write("Move: right")
-    }, 500);
+  // conn.on("connect", () => {
+  //   setInterval(() => {
+  //     conn.write("Move: up")
+  //   }, 1000);
+  //   setInterval(() => {
+  //     conn.write("Move: right")
+  //   }, 500);
 
-  });
+  // });
 
   return conn;
 };
