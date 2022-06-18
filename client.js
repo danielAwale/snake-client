@@ -21,6 +21,10 @@ const connect = function () {
     conn.write("Name: DMA");
   });
 
+   conn.on("connect", () => {
+     conn.write("Say: LES GETT IT!!!");
+   })
+
   return conn;
 };
 
