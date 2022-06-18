@@ -1,5 +1,4 @@
 const net = require("net");
-// const { setInterval } = require("timers/promises");
 const connect = function () {
   const conn = net.createConnection({
     host: "10.0.2.15",

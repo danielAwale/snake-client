@@ -1,4 +1,3 @@
-
 let connection;
 
 const setupInput = function (conn) {
