@@ -8,7 +8,11 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-This client side of the project was done by Daniel Awale as an assignment for Lighthouse Labs Web Development Flex Program.
+This client side of the project was done by Daniel Awale as an 
+assignment for Lighthouse Labs Web Development Flex Program.
+
+![SNAKEGAME](https://user-images.githubusercontent.com/101018212/174492825-924bcb05-af70-4ae1-9d90-dbc3a888905f.png)
+
 
 ## Getting Started
 
