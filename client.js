@@ -1,5 +1,5 @@
 const net = require("net");
-const {host, port} = require("./constants")
+const {host, port, NAME} = require("./constants")
 const connect = function () {
   const conn = net.createConnection({
     host,
@@ -18,7 +18,7 @@ const connect = function () {
   });
 
   conn.on("connect", () => {
-    conn.write("Name: DMA");
+    conn.write(`Name: ${NAME}`);
   });
 
    conn.on("connect", () => {
