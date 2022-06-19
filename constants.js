@@ -1,2 +1,4 @@
+const host = "10.0.2.15";
+const port = 50541;
 
-console.log("does this work?");
+module.exports = {host, port};
